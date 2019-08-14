@@ -18,7 +18,7 @@
 }
 body {
   -webkit-font-smoothing: antialiased;
-  background: #ecf0f1;
+  background: #ffffff;
   font-family: 'Raleway';
 }
 h1 {
@@ -59,7 +59,7 @@ h1 {
   font-family: "Droid Serif";
   clear: both;
 }
-.pc-tab section div {
+.pc-tab section {
   padding: 20px;
   width: 100%;
   border: 1px solid #ddd;
@@ -68,7 +68,7 @@ h1 {
   letter-spacing: 0.3px;
   color: #444;
 }
-.pc-tab section div h2 {
+.pc-tab section h2 {
   margin: 0;
   font-family: "Raleway";
   letter-spacing: 1px;
