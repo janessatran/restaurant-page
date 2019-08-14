@@ -1,10 +1,49 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Restaurant Page</title>
-  </head>
-  <body>
-    <div id="content"></div>
-    <script src="main.js"></script>
-  </body>
+
+<head>
+  <title>Restaurant Page</title>
+  <link rel="stylesheet" href="../public/css/styles.css?v2">
+
+</head>
+
+<body>
+  <div class="pc-tab">
+    <input checked="checked" id="tab1" type="radio" name="pct" />
+    <input id="tab2" type="radio" name="pct" />
+    <input id="tab3" type="radio" name="pct" />
+    <nav>
+      <ul>
+        <li class="tab1">
+          <label for="tab1">ABOUT THE OATMEAL BAR</label>
+        </li>
+        <li class="tab2">
+          <label for="tab2">Second Tab</label>
+        </li>
+        <li class="tab3">
+          <label for="tab3">Third Tab</label>
+        </li>
+      </ul>
+    </nav>
+    <section>
+      <div class="tab1">
+        <div id="content">
+        </div>
+      </div>
+      <div class="tab2">
+        <h2>Second</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum nesciunt ipsum dolore error repellendus
+          officiis aliquid a, vitae reprehenderit, accusantium vero, ad. Obcaecati numquam sapiente cupiditate.
+          Praesentium eaque, quae error!</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, maiores.</p>
+      </div>
+      <div class="tab3">
+        <h2>Third</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, nobis culpa rem, vitae earum aliquid.</p>
+      </div>
+    </section>
+  </div>
+  <script src="main.js"></script>
+</body>
+
 </html>
