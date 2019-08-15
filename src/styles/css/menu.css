@@ -1,0 +1,50 @@
+.page {
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.menu-body {
+  max-width: 680px;
+  margin: 0 auto;
+  display: block;
+  color: rgb(92, 92, 92);
+}
+
+.menu-section {
+  margin-bottom: 0px;
+}
+
+.menu-section-title {
+  font-family: georgia;
+  font-size: 50px;
+  display: block;
+  font-weight:normal;
+  margin: 20px 0; 
+  text-align: Center;
+}
+
+.menu-item {
+  margin: 35px 0;
+  font-size: 18px;
+  color: #000000;
+  font-family: "Open Sans";
+ 
+}
+
+.menu-item-name{
+  font-family: helvetica;
+  font-weight: bold;
+}
+
+.menu-item-description {
+  font-weight: normal;
+  font-size: .9em;
+  line-height: 1.5em;
+}
+
+.menu-item-price{
+  float: right;
+  font-weight: bold;
+  font-family: arial;
+  margin-top: -30px;
+}
