@@ -6,7 +6,8 @@ This project is a part of The Odin Project JavaScript Course: [https://www.theod
 
 ## Start setup
 To work with project locally:
-
+'''
 $ git clone https://github.com/janessatran/restaurant-page.git
 $ npm install
 $ npm run watch
+'''
