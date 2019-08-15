@@ -2,7 +2,8 @@ import {createAboutSection,
         createTabs, 
         createTabLabels, 
         createContentContainers,
-        createMenuSection } from './page-load';
+        createMenuSection,
+        createContactSection } from './page-load';
 
 window.addEventListener("load", init, true); 
 function init(){  
@@ -12,5 +13,5 @@ function init(){
   createContentContainers();
   createAboutSection();
   createMenuSection();
-  console.log('end');
+  createContactSection();
 };

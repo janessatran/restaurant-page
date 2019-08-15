@@ -21,7 +21,6 @@ const createAboutSection = () => {
   contentDiv.appendChild(header);
   contentDiv.appendChild(image);
   contentDiv.appendChild(text);
-  console.log('hello!!');
 }
 
 const createMenuSection = () => {
@@ -80,6 +79,25 @@ const createMenuSection = () => {
 
 }
 
+
+const createContactSection = () => {
+  let div = document.getElementById('tab3-content');
+  let contentDiv = document.createElement('div');
+  contentDiv.id = 'content';
+
+  let header = document.createElement("h1");
+  header.textContent = "CONTACT US";
+
+  let phoneLabel = document.createElement("p");
+  phoneLabel.textContent = 'Give us a call at (111)222-5555 !'
+  phoneLabel.className = 'contact'
+
+ 
+  div.appendChild(contentDiv);
+  contentDiv.appendChild(header);
+  contentDiv.appendChild(phoneLabel);
+}
+
 const createTabs = () => {
   [1,2,3].forEach(function(idx) {
     let divTabs = document.getElementById('nav-div');
@@ -100,7 +118,7 @@ const createTabLabels = () => {
   let divTabs = document.getElementById('nav-div');
   let nav = document.createElement('nav');
 
-  ['OUR STORY', 'MENU', 'GALLERY'].forEach(function(label, idx) {
+  ['OUR STORY', 'MENU', 'CONTACT US'].forEach(function(label, idx) {
     let navList = document.createElement('ul');
     navList.id = 'nav-list';
     let item = document.createElement('li');
@@ -139,4 +157,5 @@ export  { createAboutSection,
           createTabs, 
           createTabLabels, 
           createContentContainers, 
-          createMenuSection }
+          createMenuSection,
+        createContactSection }
