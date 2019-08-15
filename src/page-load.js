@@ -3,6 +3,7 @@
    restaurant and adds it to the content div
 */
 
+
 const createAboutSection = () => {
   let div = document.getElementById('tab1-content');
   let contentDiv = document.createElement('div');
